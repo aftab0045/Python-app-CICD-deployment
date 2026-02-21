@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_geek():
-    return 'successfully deployed python application through jenkins using CICD!!!!!!!!!, added webhook also for automation'
+    return 'successfully deployed python application through jenkins using CICD!!!!!!!!!, added webhook also for automation succefully deployed'
 @app.route('/hi')
 def hell():
     return '<h1>Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii from Flask & Docker</h1>'
